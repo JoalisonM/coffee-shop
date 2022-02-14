@@ -11,7 +11,6 @@ const loadMenu = () => {
 };
 
 const createMenu = (card) => {
-  console.log(card);
   const cardCoffee = `
     <div class="coffeeGrid">
       <div class="coffeeImg">

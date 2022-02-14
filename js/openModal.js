@@ -1,4 +1,3 @@
-/* ABRIR MODAL */
 const Modal = {
   open() {
     document.querySelector(".modal-overlay").classList.add("active-modal")
