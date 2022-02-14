@@ -7,7 +7,7 @@ const allMenu = [
   },
   {
     img: "./images/cafecomleite.png",
-    title: "Coffe with milk",
+    title: "Coffee with milk",
     description: "300 ml",
     price: "$6.32",
   },

@@ -327,23 +327,23 @@ input::placeholder {
     margin-top: 0;
 }
 
-.input-group.actions button {
+.input-group.actions .add {
     border: 0;
     color: var(--white);
     background-color: var(--green);
+    border: 2px var(--green) solid;
 
     transition: filter 0.2s;
 }
 
-.input-group.actions button:hover {
+.input-group.actions .add:hover {
     filter: brightness(0.9);
 }
 
-.input-group.actions a {
-    padding: 1rem 0;
-    font-weight: 600;
+.input-group.actions .clear {
     color: var(--yellow);
     border: 2px var(--yellow) solid;
+    background-color: transparent;
 
     display: flex;
     align-items: center;
@@ -353,13 +353,14 @@ input::placeholder {
     transition: opacity 0.2s;
 }
 
-.input-group.actions a:hover {
+.input-group.actions .clear:hover {
     opacity: 1;
 }
 
-.input-group.actions a,
-.input-group.actions button {
+.input-group.actions .clear,
+.input-group.actions .add {
     width: 48%;
+    font-size: 1.1rem;
     padding: 1rem 0;
     font-weight: 900;
     border-radius: 0.4rem;

@@ -1,3 +1,9 @@
-const resetForm = () => {
-  document.getElementById("addItem").reset();
-};
+const Form = {
+  resetFields() {
+    document.getElementById("addItem").reset();
+  },
+
+  submit(event) {
+    event.preventDefault();
+  }
+}
